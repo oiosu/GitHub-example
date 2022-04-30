@@ -1,0 +1,44 @@
+/* COMMON */
+.summary__title {
+    font-size: 34px !important;
+}
+.summar__description {
+    font-size: 22px;
+}
+
+/* FEATURE */
+.section--feature .tiles li {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* WHERE IS */
+#map {
+    width: auto;
+    margin: 40px -20px 0 -20px;
+    border-left: none;
+    border-right: none;
+}
+
+/* PRCING */
+.section--pricing.card {
+    display: block;
+}
+.section--pricing.card .cell2 {
+    border-left: none;
+    border-top: 1px solid #e5e5e5;
+}
+
+/* FOOTER  */
+footer .site-links {
+    float: none;
+    display: block;
+    text-align: center;
+}
+footer .site-links:first-child {
+    margin-bottom: 20px;
+}
+footer .site-links li {
+    display: inline;
+}
